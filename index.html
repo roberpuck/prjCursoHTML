@@ -4,6 +4,42 @@
     <title>Mi primera web</title>
 </head>
 <body>
+
+    <table>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+                
+            </tr>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+    </table>
+    <!--ul lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--ol lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
     <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
         <input value="Chanchito" type="text" id="nombre" name="nombre" placeholder="Chanchito"/>
@@ -14,13 +50,13 @@
         <label for="comentario">Comentario</label>
         <br>
         <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">este es un valor por defecto</textarea>
-        <br>
-        <button type="button"><img src="img/ice.png">Tipo boton</button>
+        <br> 
+        <button type="button">Tipo boton</button>
         <button type="reset">Tipo reset</button>
-        <button type="submit">Tipo submit</button>
+        <button type="submit">Tipo submit</button> 
 
     </form>
-        <h1>Mi primer heading</h1>
+        <h1>Mi primer heading</h1> 
         <h2>Mi segundo heading</h2>
         <h3>Mi tercer heading</h3>
         <h4>Mi cuarto heading</h4>
@@ -38,7 +74,7 @@
     <!--este texo es un comentario yno va a
     aparecer en el explorador-->
 
-    <img src="img/youtube.png" height="400"/>
+    <img src="img/youtube.png" height="200"/>
 
 
 </body>
